@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "name": "Formation complète en marketing digital",
+    "date": "2023-06-15",
+    "instructor": "Julien Lavanchy",
+    "guides": [
+      2
+    ],
+    "attendees": [
+      {
+        "userId": 1,
+        "motivation": "aezrazer"
+      },
+      {
+        "userId": 1,
+        "email": "john.doe@example.com",
+        "motivation": "aezrazer"
+      },
+      {
+        "userId": 1,
+        "email": "john.doe@example.com",
+        "motivation": "aezrazer"
+      },
+      {
+        "userId": 1,
+        "email": "john.doe@example.com",
+        "motivation": "aezrazer"
+      },
+      {
+        "userId": 1,
+        "email": "john.doe@example.com",
+        "motivation": "oui"
+      },
+      {
+        "userId": 1,
+        "email": "john.doe@example.com",
+        "motivation": "oui"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Formation complète en marketing digital",
+    "date": "2023-06-15",
+    "instructor": "Julien Lavanchy",
+    "guides": [
+      2
+    ],
+    "attendees": [
+      {
+        "userId": 1,
+        "motivation": "aezrazer"
+      },
+      {
+        "userId": 1,
+        "motivation": "aezrazer"
+      },
+      {
+        "userId": 1,
+        "motivation": "aezrazer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Formation en sécurité informatique",
+    "date": "2023-08-10",
+    "instructor": "Brian Krebs",
+    "guides": [
+      3
+    ],
+    "attendees": [
+      {
+        "userId": 1,
+        "motivation": "Je suis intéressé par le marketing digital et je souhaite améliorer mes compétences dans ce domaine."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Formation en design d'interface utilisateur",
+    "date": "2023-09-05",
+    "instructor": "Sarah Doody",
+    "guides": [
+      1,
+      4,
+      10
+    ],
+    "attendees": []
+  },
+  {
+    "id": 5,
+    "name": "Formation en data science",
+    "date": "2023-10-21",
+    "instructor": "Jake VanderPlas",
+    "guides": [
+      6
+    ],
+    "attendees": []
+  },
+  {
+    "id": 6,
+    "name": "Formation en développement web",
+    "date": "2023-11-12",
+    "instructor": "Wes Bos",
+    "guides": [
+      12,
+      14
+    ],
+    "attendees": []
+  },
+  {
+    "id": 7,
+    "name": "Formation en marketing d'affiliation",
+    "date": "2023-12-06",
+    "instructor": "Pat Flynn",
+    "guides": [
+      5,
+      7,
+      11
+    ],
+    "attendees": []
+  },
+  {
+    "id": 8,
+    "name": "Formation en développement d'applications mobiles",
+    "date": "2024-01-15",
+    "instructor": "Maximilian Schwarzmüller",
+    "guides": [
+      2
+    ],
+    "attendees": []
+  },
+  {
+    "id": 9,
+    "name": "Formation en gestion de projet",
+    "date": "2024-02-08",
+    "instructor": "David Allen",
+    "guides": [],
+    "attendees": []
+  },
+  {
+    "id": 10,
+    "name": "Conférence sur la neuroscience",
+    "date": "2024-03-10",
+    "instructor": "Dr. David Eagleman",
+    "guides": [
+      16
+    ],
+    "attendees": []
+  },
+  {
+    "id": 11,
+    "name": "Conférence sur la sécurité informatique",
+    "date": "2024-04-05",
+    "instructor": "Bruce Schneier",
+    "guides": [
+      18
+    ],
+    "attendees": []
+  },
+  {
+    "id": 12,
+    "name": "Conférence sur le machine learning",
+    "date": "2024-05-12",
+    "instructor": "Andrew Ng",
+    "guides": [
+      19,
+      21
+    ],
+    "attendees": []
+  },
+  {
+    "id": 13,
+    "name": "Conférence sur le leadership",
+    "date": "2024-06-08",
+    "instructor": "Simon Sinek",
+    "guides": [],
+    "attendees": [
+      {
+        "userId": 1,
+        "motivation": "Je suis intéressé par le marketing digital et je souhaite améliorer mes compétences dans ce domaine."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Conférence sur la cybersécurité",
+    "date": "2024-07-11",
+    "instructor": "Mikko Hyppönen",
+    "guides": [
+      18,
+      22
+    ],
+    "attendees": [
+      {
+        "userId": 1,
+        "motivation": "Je suis intéressé par le marketing digital et je souhaite améliorer mes compétences dans ce domaine."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Conférence sur l'IA",
+    "date": "2024-08-20",
+    "instructor": "Yann LeCun",
+    "guides": [
+      19,
+      23
+    ],
+    "attendees": [
+      {
+        "id": 2,
+        "motivation": "gaut"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Conférence sur la psychologie",
+    "date": "2024-09-15",
+    "instructor": "Dr. Jordan Peterson",
+    "guides": [],
+    "attendees": [
+      {
+        "userId": 1,
+        "motivation": "Je suis intéressé par le marketing digital et je souhaite améliorer mes compétences dans ce domaine."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Conférence sur l'éthique de la technologie",
+    "date": "2024-10-11",
+    "instructor": "Tristan Harris",
+    "guides": [
+      20,
+      22
+    ],
+    "attendees": [
+      {
+        "id": 2,
+        "motivation": "azeazeazeazeazeazeazeazeaze"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Conférence sur la biologie",
+    "date": "2024-11-05",
+    "instructor": "Dr. Robert Sapolsky",
+    "guides": [
+      16
+    ],
+    "attendees": [
+      {
+        "userId": 1,
+        "motivation": "Je suis intéressé par le marketing digital et je souhaite améliorer mes compétences dans ce domaine."
+      }
+    ]
+  },
+  {
+    "name": "Conférence sur la biologie",
+    "date": "2024-11-05",
+    "instructor": "Dr. Robert Sapolsky",
+    "guides": [
+      16
+    ],
+    "attendees": [
+      {
+        "userId": 1,
+        "motivation": "Je suis intéressé par le marketing digital et je souhaite améliorer mes compétences dans ce domaine."
+      }
+    ],
+    "id": 19
+  },
+  {
+    "name": "Conférence sur la biologie",
+    "date": "2024-11-05",
+    "instructor": "Dr. Robert Sapolsky",
+    "guides": [
+      16
+    ],
+    "attendees": [],
+    "id": 20
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+     "id":1,
+     "title":"Influence et manipulation",
+     "summary":"Comment persuader et influencer les autres pour obtenir ce que vous voulez, de Robert Cialdini.",
+     "author":"Robert Cialdini",
+     "rating":4.7
+  },
+  {
+     "id":2,
+     "title":"Les 7 habitudes de ceux qui réalisent tout ce qu'ils entreprennent",
+     "summary":"Comment devenir plus efficace et atteindre ses objectifs grâce à des habitudes simples mais puissantes, de Stephen R. Covey.",
+     "author":"Stephen R. Covey",
+     "rating":4.6
+  },
+  {
+     "id":3,
+     "title":"Clean Code: A Handbook of Agile Software Craftsmanship",
+     "summary":"Comment écrire un code clair, lisible et maintenable en utilisant des pratiques agiles, de Robert C. Martin.",
+     "author":"Robert C. Martin",
+     "rating":4.8
+  },
+  {
+     "id":4,
+     "title":"JavaScript: The Good Parts",
+     "summary":"Comment écrire du code JavaScript de qualité en utilisant les bonnes pratiques et en évitant les pièges, de Douglas Crockford.",
+     "author":"Douglas Crockford",
+     "rating":4.5
+  },
+  {
+     "id":5,
+     "title":"La cuisine de référence",
+     "summary":"Tout ce que vous devez savoir sur les techniques culinaires, les ingrédients et les recettes pour devenir un chef expert, de Michel Maincent-Morel.",
+     "author":"Michel Maincent-Morel",
+     "rating":4.9
+  },
+  {
+     "id":6,
+     "title":"La semaine de 4 heures",
+     "summary":"Comment vivre mieux en travaillant moins grâce à l'entrepreneuriat en ligne, de Timothy Ferriss.",
+     "author":"Timothy Ferriss",
+     "rating":4.4
+  },
+  {
+     "id":7,
+     "title":"Le pouvoir des habitudes",
+     "summary":"Comment les habitudes influencent nos vies et comment les changer pour atteindre nos objectifs, de Charles Duhigg.",
+     "author":"Charles Duhigg",
+     "rating":4.6
+  },
+  {
+     "id":8,
+     "title":"Python for Data Analysis",
+     "summary":"Comment utiliser Python pour l'analyse de données, de Wes McKinney.",
+     "author":"Wes McKinney",
+     "rating":4.4
+  },
+  {
+     "id":9,
+     "title":"Le personal MBA",
+     "summary":"Tout ce que vous devez savoir sur la gestion d'entreprise, la finance, le marketing, etc. sans aller à l'école de commerce, de Josh Kaufman.",
+     "author":"Josh Kaufman",
+     "rating":4.5
+  },
+  {
+     "id":10,
+     "title":"L'art de la cuisine française",
+     "summary":"Apprenez les secrets de la cuisine française et découvrez comment préparer des plats délicieux à la maison, de Julia Child.",
+     "author":"Julia Child",
+     "rating":4.9
+  },
+  {
+     "id":11,
+     "title":"Le pouvoir de l'instant présent",
+     "summary":"Découvrez comment vivre dans le moment présent pour trouver la paix intérieure et atteindre le bonheur, de Eckhart Tolle.",
+     "author":"Eckhart Tolle",
+     "rating":4.6
+  },
+  {
+     "id":12,
+     "title":"La programmation orientée objet",
+     "summary":"Apprenez les concepts fondamentaux de la programmation orientée objet et découvrez comment les appliquer en Java, de Cay S. Horstmann.",
+     "author":"Cay S. Horstmann",
+     "rating":4.7
+  },
+  {
+     "id":13,
+     "title":"Cuisine végétarienne",
+     "summary":"Découvrez comment préparer des plats végétariens savoureux et équilibrés pour tous les jours, de Yotam Ottolenghi.",
+     "author":"Yotam Ottolenghi",
+     "rating":4.5
+  },
+  {
+     "id":14,
+     "title":"Le pouvoir de la confiance en soi",
+     "summary":"Découvrez comment renforcer votre confiance en vous pour atteindre vos objectifs et vivre une vie plus épanouissante, de Brian Tracy.",
+     "author":"Brian Tracy",
+     "rating":4.4
+  },
+  {
+     "id":15,
+     "title":"Les design patterns en Java",
+     "summary":"Apprenez les design patterns les plus courants en Java et découvrez comment les utiliser pour écrire un code de qualité, de Erich Gamma et Richard Helm.",
+     "author":"Erich Gamma, Richard Helm",
+     "rating":4.8
+  }
+]
