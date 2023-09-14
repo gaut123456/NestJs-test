@@ -25,6 +25,7 @@
     "@nestjs/core": "^10.0.0",
     "@nestjs/jwt": "^10.1.1",
     "@nestjs/platform-express": "^10.0.0",
+    "dayjs": "^1.11.9",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1"
   },

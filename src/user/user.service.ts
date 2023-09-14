@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { Guide } from './user.type';
 import * as fs from 'fs'
 
-
 const data = JSON.parse(fs.readFileSync('src/user/data.json', 'utf8')) as Guide[]
 
 const fetchGuideById = (id: any): any => {

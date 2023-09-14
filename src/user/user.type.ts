@@ -5,3 +5,10 @@ export interface Guide {
     author: string
     rating: number
 }
+
+export interface User {
+    id: number
+    email: string
+    role: string
+    iat: number
+}
