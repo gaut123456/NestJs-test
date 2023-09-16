@@ -7,13 +7,13 @@ export class UserController {
     constructor(private UserService: UserService) { }
 
     @Get('guide/:id')
-    async guide(@Param('id') id: string): Promise<any> {
+    async guide(@Param('id') id: string): Promise<Guide> {
         const guide = this.UserService.getGuideById(id)
         return guide
     }
-    
+
     @Get('guides')
-    async guides(): Promise<any> {
+    async guides(): Promise<Guide[]> {
         const guide = this.UserService.getAllGuides()
         return guide
     }

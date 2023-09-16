@@ -1,18 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import * as fs from 'fs'
+import { Guide, User } from 'src/user/user.type';
+import { Error } from 'src/utils/types';
 
-
-const verifyFormatData = (data: any): any => {
-    if (data.title == undefined || data.title == "") {
-        return false
-    }
-    if (data.author == undefined || data.author == "") {
-        return false
-    }
-    if (data.summary == undefined || data.summary == "") {
-        return false
-    }
-    if (data.rating == undefined || data.rating == "") {
+const verifyFormatData = (data: Guide): Boolean => {
+    if (!data.title || !data.author || !data.summary || !data.rating) {
         return false
     }
     return true
@@ -20,15 +12,15 @@ const verifyFormatData = (data: any): any => {
 
 @Injectable()
 export class AdminService {
-    
-    async add(data: any, user: any): Promise<any> {
+
+    async add(data: Guide, user: User): Promise<Error> {
         if (user.role != "admin") {
             return { error: "Vous n'avez pas les droits" }
         }
         if (!verifyFormatData(data)) {
             return { error: "mauvais format de données" }
         }
-        fs.readFile('src/user/data.json', function (err, datas : any) {
+        fs.readFile('src/user/data.json', function (err, datas: any) {
             var json = JSON.parse(datas)
             data.id = json.length + 1
             json.push(data)
@@ -39,5 +31,6 @@ export class AdminService {
             }
             );
         })
+        return { error: "false" }
     }
 }

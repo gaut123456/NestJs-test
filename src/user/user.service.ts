@@ -12,12 +12,12 @@ const fetchGuideById = (id: any): any => {
 @Injectable()
 
 export class UserService {
-    
-    getGuideById(id: any): any {
+
+    getGuideById(id: string): Guide {
         const guide = fetchGuideById(id)
         return guide
     }
-    getAllGuides(): any {
+    getAllGuides(): Guide[] {
         const Alldata = JSON.parse(fs.readFileSync('src/user/data.json', 'utf8')) as Guide[]
         return Alldata
     }

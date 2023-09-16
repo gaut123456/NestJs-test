@@ -1,5 +1,5 @@
 export interface Guide {
-    id: number
+    id?: number
     title: string
     summary: string
     author: string
@@ -7,7 +7,7 @@ export interface Guide {
 }
 
 export interface User {
-    id: number
+    id?: number
     email: string
     role: string
     iat: number

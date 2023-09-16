@@ -1,12 +1,13 @@
 import { Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
+import { LoginInput } from './types';
 
 @Injectable()
 export class AuthService {
     constructor(
         private jwtService: JwtService
-      ) {}  
-    async login(Body: any) {
+    ) { }
+    async login(Body: LoginInput) {
         let users = [
             {
                 "id": 1,

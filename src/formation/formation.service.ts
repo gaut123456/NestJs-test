@@ -6,9 +6,9 @@ import formatDate from 'src/utils/formatDate';
 import { User } from 'src/user/user.type';
 import { Error } from 'src/utils/types';
 
-const data = JSON.parse(fs.readFileSync('src/formation/data.json', 'utf8')) 
+const data = JSON.parse(fs.readFileSync('src/formation/data.json', 'utf8'))
 
-const fetchFormationById = (id: any): any => {
+const fetchFormationById = (id: string): Formation => {
     const rawFormation = data.find((formation) => formation.id == id)
     const formation = {
         date: formatDate(rawFormation.date),
@@ -19,7 +19,7 @@ const fetchFormationById = (id: any): any => {
 
 @Injectable()
 export class FormationService {
-    getFormationById(id: any): Formation {
+    getFormationById(id: string): Formation {
         const formation = fetchFormationById(id)
         return formation
     }
@@ -53,24 +53,24 @@ export class FormationService {
 
 
     async join(data: FormationJoin, user: User): Promise<Error> {
-        if (!data.id || !data.motivation || !user ) {
+        if (!data.id || !data.motivation || !user) {
             return { error: "mauvais format de données" }
         }
-        const formation = fetchFormationById(data.id)
+        const formation = fetchFormationById(data.id.toString())
         if (!formation) {
             return { error: "formation introuvable" }
         }
-        
-        fs.readFile('src/formation/data.json', function (err, datas : any) {
+
+        fs.readFile('src/formation/data.json', function (err, datas: any) {
             let json = JSON.parse(JSON.stringify(JSON.parse(datas)))
-            console.log("json", typeof(json[formation.id - 1].attendees))
-            if (typeof(json[formation.id - 1].attendees) == "object") {
+            console.log("json", typeof (json[formation.id - 1].attendees))
+            if (typeof (json[formation.id - 1].attendees) == "object") {
                 const attendees = json[formation.id - 1].attendees
                 json[formation.id - 1].attendees = []
-                json[formation.id - 1].attendees.push({id: user.id, motivation: data.motivation})
-            }  else {
-                json[formation.id - 1].attendees.push({id: user.id, motivation: data.motivation})
-            }  
+                json[formation.id - 1].attendees.push({ id: user.id, motivation: data.motivation })
+            } else {
+                json[formation.id - 1].attendees.push({ id: user.id, motivation: data.motivation })
+            }
             console.log("json", json)
             fs.writeFile("src/formation/data.json", JSON.stringify(json, null, 2), function (err) {
                 if (err) throw err;
@@ -78,6 +78,6 @@ export class FormationService {
             );
         })
         return { error: "false" }
-    } 
+    }
 }
 
